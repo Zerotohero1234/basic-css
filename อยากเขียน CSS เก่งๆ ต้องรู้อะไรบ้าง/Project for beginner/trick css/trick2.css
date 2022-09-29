@@ -1,0 +1,12 @@
+
+ul {
+    list-style: none;
+}
+
+ul.complete li:before{
+    content: "✅ ";
+}
+
+ul.incomplete li:before {
+    content: "❌ ";
+}

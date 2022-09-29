@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container {
+    display: grid;
+
+    /* grid set name */
+    /* grid-template-areas: "header header"
+                         "content sidebar"
+                         "footer footer"; */
+    
+    /* grid-template-columns: 1fr 200px;
+    grid-template-rows: 150px 200px 60px; */
+
+    /* z-index */
+    /* grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 100px); */
+
+    /* set position in grid  */
+    /* grid-template-columns: 1fr 1fr;
+    grid-template-rows: 80px 80px; */
+    /* grid-template-areas: "content content"
+                         "content content"; */
+    grid-template-columns: repeat(3, 40px);
+    grid-template-rows: repeat(2, 40px) ;
+
+
+    /* ການຈັດຕຳແໜ່ງແນວນອນ */
+    /* justify-items: center; */
+    justify-content: center;
+
+    /* ການຈັດຕຳແໜ່ງແນວຕັ້ງ */
+    /* align-items: center ; */
+    align-content: center;
+
+    background-color: orange;
+    padding: 1em;
+    height: 500px;
+    width: 100%;
+}
+
+/* .header{
+    grid-area: header;
+}
+
+.content {
+    grid-area: content;
+}
+
+.sidebar {
+    grid-area: sidebar;
+}
+
+.footer {
+    grid-area: footer;
+} */
+
+/* .grid1,.grid2{
+    grid-column-end: span 2;
+    grid-row-start: 1;
+}
+
+.grid1 {
+    grid-column-start: 1;
+    z-index: 1;
+    background-color: rgb(0, 0, 0, 0.4);
+    background-color: yellow;
+}
+
+.grid2{
+    grid-column-start: 2;
+} */
+
+.grid-item {
+    justify-items: start;
+    border: 1px solid white;
+}
+
+/* set position */
+.grid1 {
+    /* align-self: center;
+    justify-self: start; */
+}
+
+.grid2 {
+    /* align-self: start;
+    justify-self: center; */
+}
+
+.grid3 {
+    /* align-self: end;
+    justify-self: end; */
+}
+
+.grid4{
+    
+}

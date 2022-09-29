@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container{
+    display: grid;
+    /* grid-tem */
+
+    grid-template-columns: repeat(3, 100px) ;
+    grid-template-rows: repeat(2, 100px);
+
+    background-color: orange;
+    padding: 1em;
+    height: 500px;
+    width: 100%;
+
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.grid-item{
+    justify-items: start;
+    border: 1px solid white;
+}
+
+

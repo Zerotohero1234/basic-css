@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* descendant selector ເລືອກທັງໝົດເລີຍ */
+        div p{
+            background: greenyellow;
+        }
+
+        /* child selector */
+        div > p{
+            background: gold;
+        }
+
+        /* adjacent sibling selector */
+        div + p{
+            background: red !important;
+        }
+
+        /* general sibling selector */
+        div ~ p {
+            background: salmon;
+        }
+    </style>
+
+
+</head>
+<body>
+    <h1>CSS Combinators</h1>
+
+    <div>
+        <p>Some text</p>
+        <p>Some text</p>
+        <section>
+            <p>Section text</p>
+            <p>Section text</p>
+        </section>
+    </div>
+
+    <p>Outside div text</p>
+    <p>Outside div text</p>
+    <p>Outside div text</p>
+    <p>Outside div text</p>
+    <p>Outside div text</p>
+    <p>Outside div text</p>
+
+</body>
+</html>

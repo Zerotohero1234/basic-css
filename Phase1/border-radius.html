@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+        }
+        .box-1{
+            background-color:yellow;
+            border-color: red;
+            border-style: solid;
+            border-radius: 10px;
+        }
+        .box-2{
+            background-color: yellowgreen;
+            border-style: solid;
+            border-color: purple;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 30px;
+            border-bottom-left-radius: 40px;
+            border-bottom-right-radius: 50px;
+        }
+        .box-3{
+            background-color: pink;
+            border-style: solid;
+            border-color:springgreen;
+            border-radius: 10px 20px 30px 40px;
+            /* top-left = 10px
+               top-right = 20px
+               bottom-right = 30px
+               bottom-left = 40px
+             */
+        }
+        .box-4{
+            background-color: yellow;
+            border-color: red;
+            border-style: solid;
+            border-radius: 20px 5px 30px;
+            /* 
+                top-left = 20px
+                top-right , bottom-left = 5px
+                bottom-right = 15px
+             */
+        }
+        .box-5{
+            background-color: white;
+            border-style: dashed;
+            border-radius: 15px 30px;
+            /* 
+            top-right,bottom-left = 15px
+            top-left,bottom-right = 30px
+             */
+        }
+        img{
+            border: solid 10px aqua;
+        }
+    </style>
+</head>
+<body>
+    <div class="box-1"></div>
+    <hr>
+    <div class="box-2"></div>
+    <hr>
+    <div class="box-3"></div>
+    <hr>
+    <div class="box-4"></div>
+    <hr>
+    <div class="box-5"></div>
+    <hr>
+    <img src="https://cdn.pixabay.com/photo/2021/06/22/14/55/girl-6356393_960_720.jpg" alt="">
+</body>
+</html>

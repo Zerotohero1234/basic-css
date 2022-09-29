@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.grid-container {
+    display: grid;
+    /* grid-template-columns: minmax(auto, 50%) 200px 3rem ;
+    grid-template-rows: minmax(100px, auto); */
+
+    /* repeat(ຮອບ, size)  */
+    /* grid-template-columns: repeat(3, 1fr) ;
+    grid-template-rows: repeat(4, 100px); */
+
+    /* ການຕັ້ງຊື່ */
+    /* grid-template-columns: [col-1-start] 1fr [col-2-start] 1fr [col-3-start] 1fr [col-3-end];
+    grid-template-rows: [row-star row-1-start] 100px [row-1-end row-2-start] 100px [row-3-start] 100px [row-4-start] 100px [row-4-end]; */
+    grid-template-rows: repeat(4, [row-start] 100px [row-end]);
+    grid-template-columns: repeat(3, [col-start] 1fr [col-end]);
+
+    /* gap ກຳນົດຊ່ອງວ່າງ 
+    short hand grid-gap: column row */
+    /* grid-column-gap: 10px;
+    grid-row-gap: 10px; */
+
+
+
+    background: orange;
+    padding: 1em;
+}
+
+.grid-item{
+    border: 1px solid #ffffff;
+}
+
+.grid1{
+    /* grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4; */
+    
+    /* Short hand =  grid-column: grid-column-start / grid-column-end ; */
+    /* grid-column: 2 / 3; */
+    /* grid-row: 2 / 3; */
+
+   /* short hand one-line =  grid-area: [grid-row-start] / [grid-column-start] / [grid-row-end] / [grid-column-end]; */
+   /* grid-area: 1 / 1 / 4 / 2; */
+
+   /* span */
+   /* grid-column: 1 / span 2;
+   grid-row: 2 / span 3; */
+
+
+   grid-column: col-start / col-start 3 ;
+   grid-row: row-end / row-end 3; 
+}

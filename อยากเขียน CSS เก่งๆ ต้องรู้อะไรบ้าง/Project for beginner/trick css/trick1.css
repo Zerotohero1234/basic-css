@@ -1,0 +1,23 @@
+/* Img hover */
+
+.img {
+    display: flex;
+}
+
+.img-wrapper {
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+}
+.img-wrapper img {
+    width: 400px;
+    height: 400px;
+}
+
+.inner-img {
+    transition: .4s;   
+}
+
+.inner-img:hover {
+    transform: scale(1.1);
+}

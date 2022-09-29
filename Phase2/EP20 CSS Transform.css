@@ -1,0 +1,29 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 2px solid black;
+    margin: 100px;
+
+    /* ຍ້າຍຕຳແໜ່ງກ່ອງ */
+    /* transform: translate(100px,100px); */
+    /* ການໝຸນກ່ອງ */
+    /* transform: rotate(45deg); */
+    /* transform: rotatex(50deg);  /* ການໝຸນແບບແກນ X rotatex */
+    /* transform: rotateY(20deg); */
+    /* transform: scale(2,2);  scale(x,y) ການຂະຫຍາຍຂະໜາດ */
+    /* transform: skewx(10deg); */
+    /* transform: skewy(20deg); */
+    transform: skew(10deg,20deg);
+}
+
+/* ຍ້າຍຕຳແໜ່ງກ່ອງ */
+    /* transform: translate(100px,100px); */
+    /* ການໝຸນກ່ອງ */
+    /* transform: rotate(45deg); */
+    /* transform: rotatex(50deg);  /* ການໝຸນແບບແກນ X rotatex */
+    /* transform: rotateY(20deg); */
+    /* transform: scale(2,2);  scale(x,y) ການຂະຫຍາຍຂະໜາດ */
+    /* transform: skewx(10deg); */
+    /* transform: skewy(20deg);  */
+    /* transform: skew(10deg,20deg); ການອ່ຽງກ່ອງ */

@@ -1,0 +1,86 @@
+.flex-container{
+    display: flex;
+    background: #00d9ff;
+    height: 100vh;
+
+    /* flex-direction: ກຳນົດທິດທາງ */
+    flex-direction:row; 
+
+     /*flex-wrap: ຫໍໄຫຸ້ມວ້ເວລາມີການຢືດຫຼືຍໍ້ */
+    flex-wrap: wrap;
+
+    /* Shot hand */
+    /* flex-flow: row wrap; */
+
+    /* justify-content: ແມ່ນການຈັດຕຳແໜ່ງແບບ row */
+    /* justify-content: center; */
+
+    /* align-items ແມ່ນການຈັດຕຳແໜ່ງແບບ column */
+    /* align-items: flex-end ; */
+
+    /* align-content: ໃຊ້ຮ່ວມກັບ wrap ເຄືອ່ນຍ້າຍແບບກົງກັນຂ້າມກັບ justify-content and align-item */
+    /* align-content: flex-end ; */
+
+    /* flex: flex-grow, flex-shrink, flex-basis */
+}
+
+.flex-item-1, .flex-item-2, .flex-item-3, .flex-item-4, .flex-item-5{
+     /* flex-basis: 150px; */
+    width: 150px;
+    height: 150px;
+    background: #cccccc;
+    margin:10px;
+}
+
+
+/* order ແມ່ນການຈັດຕຳແໜ່ງໄຫ້ ເວລາເຮົາຢາກໄຫ້ box ໂຕໃດ ໄປຢູ່ຕຳແໜ່ງໃດ */
+/* .flex-item-1{
+    order: 5;
+}
+
+.flex-item-2{
+    order: 4;
+}
+
+.flex-item-3{
+    order: 1;
+}
+
+.flex-item-4{
+    order: 2;
+}
+
+.flex-item-5{
+    order: 3;
+} */
+
+
+/* flex-grown ແມ່ນການຢືດ box ໂດຍມີຄ່າຫົວໜ່ວຍເປັນ 0 and 1 */
+/* .flex-item-3{
+    flex-grow: 1;
+} */
+
+/* flex-shrink ແມ່ນການຫົດຕົວຄ່າ default ແມ່ນ1 ຖ້າໃສ່2 ມັນຈະຫົວໂຕຫຼາຍກ່ອນໝູ່ */
+/* .flex-item-3{
+    flex-shrink: 2;
+} */
+
+/* .flex-item-1{
+    align-self: flex-start;
+}
+
+.flex-item-2{
+    align-self: center;
+}
+
+.flex-item-3{
+    align-self: flex-end;
+}
+
+.flex-item-4{
+    align-self: center;
+}
+
+.flex-item-5{
+    align-self: flex-start;
+} */

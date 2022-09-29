@@ -1,0 +1,15 @@
+.gird-container{
+    display: grid;
+    grid-template-rows: 100px 100px 100px 100px;
+    /* grid-template-columns: 200px 200px 200px; */
+    grid-template-columns: repeat(2,200px);
+    /*  grid-template-columns: repeat(3,auto); */
+}
+.item{
+    padding: 3rem;
+    border: 1px solid #cccccc;
+    background-color: orange;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+}
